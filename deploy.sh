@@ -24,10 +24,10 @@ cd src/.vuepress/dist
 git init
 git add -A
 git commit -m "deploy $(date '+%Y-%m-%d %H:%M:%S')"
-# 如果你想要部署到 https://USERNAME.github.io
+# 如果发布到 https://<USERNAME>.github.io/
 # git push -f https://github.com/zephyel/zephyel.github.io.git master      #使用 HTTPS(需要 token)
 # git push -f git@github.com:zephyel/zephyel.github.io.git master          #使用 SSH
-# 如果发布到 https://USERNAME.github.io/<REPO>REPO=github上的项目
+# 如果发布到 https://<USERNAME>.github.io/<REPO>/
 git push -f https://github.com/zephyel/mydocs.git master:gh-pages          #使用 HTTPS(需要 token)
 # git push -f git@github.com:zephyel/mydocs.git master:gh-pages            #使用 SSH
 

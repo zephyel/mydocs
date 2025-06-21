@@ -14,7 +14,7 @@ echo "✅ 构建完成！"
 echo "📂 推送my-docs源码到main分支..."
 git add -A
 git commit -m "test_docs $(date '+%Y-%m-%d %H:%M:%S')"
-git push https://github.com/zephyel/mydocs.git main                 #使用 HTTPS(需要 token)
+git push -f https://github.com/zephyel/mydocs.git main                 #使用 HTTPS(需要 token)
 # git push git@github.com:zephyel/mydocs.git main                   #使用 SSH
 
 

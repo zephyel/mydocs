@@ -15,7 +15,7 @@ echo "📂 推送my-docs源码到main分支..."
 git add -A
 git commit -m "test_docs $(date '+%Y-%m-%d %H:%M:%S')"
 git push -f https://github.com/zephyel/mydocs.git main                 #使用 HTTPS(需要 token)
-# git push git@github.com:zephyel/mydocs.git main                   #使用 SSH
+# git push -f git@github.com:zephyel/mydocs.git main                   #使用 SSH
 
 
 # 将 dist目录推送到 gh-pages分支

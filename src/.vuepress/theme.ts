@@ -13,8 +13,8 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
+  // 编辑此页链接 (需要把源码上传到 main分支)
   repo: "zephyel/mydocs",
-
   docsDir: "src",
 
   locales: {

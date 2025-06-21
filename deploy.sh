@@ -34,7 +34,7 @@ git push -f https://github.com/zephyel/mydocs.git master:gh-pages          #使�
 
 # 返回项目根目录
 cd -
-echo "🏁 部署完成！访问 https://zephyel.github.io/mydocs ✨"
+echo "🏁 部署完成！访问 https://zephyel.github.io/mydocs/ 或 https://zephyel177.xyz/mydocs/ ✨"
 
 
 
